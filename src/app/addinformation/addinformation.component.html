@@ -1,0 +1,106 @@
+<h3>Add Information</h3>
+<div mat-dialog-content>
+
+    <form [formGroup]="travelForm">
+        <!--Personal Information-->
+        <mat-expansion-panel hideToggle [expanded]="true">
+            <mat-expansion-panel-header>
+                <mat-panel-title>Personal Information</mat-panel-title>
+                <mat-icon>assignment_ind</mat-icon>
+            </mat-expansion-panel-header>
+
+            <mat-form-field appearance="outline">
+                <mat-label>First Name</mat-label>
+                <input formControlName="firstName" matInput placeholder="First Name">
+            </mat-form-field>
+        
+            <mat-form-field appearance="outline">
+                <mat-label>Last Name</mat-label>
+                <input formControlName="lastName" matInput placeholder="Last Name">
+            </mat-form-field>
+
+            <mat-form-field appearance="outline">
+                <mat-label>Citizenship</mat-label>
+                <input formControlName="citizenship" matInput placeholder="Citizenship">
+            </mat-form-field>
+        
+            <mat-form-field appearance="outline">
+                <mat-label>Gender</mat-label>
+                <mat-select formControlName="gender" placeholder="Gender">
+                    <mat-option *ngFor="let g of gender" [value]="g">{{g}}</mat-option>
+                </mat-select> 
+            </mat-form-field>
+        
+            <mat-form-field appearance="outline">
+                <mat-label>Date of Birth</mat-label>
+                <input formControlName="dateOfBirth" matInput [matDatepicker]="picker">
+                <mat-hint>MM/DD/YYYY</mat-hint>
+                <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                <mat-datepicker #picker></mat-datepicker>
+            </mat-form-field>
+
+        </mat-expansion-panel>
+        <!--End of Personal Information-->
+
+        <!--Questionaires-->
+        <mat-expansion-panel hideToggle>
+            <mat-expansion-panel-header>
+                <mat-panel-title>Travel Survey</mat-panel-title>
+                <mat-icon>poll</mat-icon>
+            </mat-expansion-panel-header>
+
+            <div *ngFor="let question of questions">
+                <label *ngIf="(question.PQuestionDescription != '' && question.PQuestion)">
+                    {{question.QuestionNo}}. {{question.PQuestionDescription}}
+                </label>
+                <mat-radio-group class="example-radio-group">
+                    <mat-radio-button class="example-radio-button" *ngFor="let option of question.QuestionOptions" [value]="option.value" (click)="selectedOpt(option.value, question.QuestionNo)">{{option.description}}</mat-radio-button>
+                </mat-radio-group>
+
+                <!--Text Area-->
+                <mat-form-field class="example-full-width" appearance="outline" *ngIf="question.QuestionType == 'LB'">
+                    <mat-label>Transportation</mat-label>
+                    <textarea matInput #transportation placeholder="Ex. Airplane" (keyup.enter)="onEnter(transportation.value)"></textarea>
+                </mat-form-field>
+                
+
+                <!--For child question of #10-->
+                <label *ngIf="question.QuestionType == 'FT' && showChild('10')">
+                    {{question.QuestionNo}}. {{question.CQuestionDescription}}
+                </label>
+                <!--Free Text-->
+                <mat-form-field appearance="outline" *ngIf="(question.QuestionType == 'FT' && showChild('10'))">
+                    <input matInput placeholder="Travel Agent">
+                </mat-form-field>
+
+
+                <!-- For child question of #6-->
+                <label *ngIf="question.QuestionType == 'AC' && showChild('6')">
+                    {{question.QuestionNo}}. {{question.CQuestionDescription}}
+                </label>
+                <!--Autocomplete-->
+                <form [formGroup]="countryForm" *ngIf="question.QuestionType == 'AC' && showChild('6')">
+                    <mat-form-field appearance="outline">
+                        <mat-label>Country</mat-label>
+                        <input type="text" matInput formControlName="countryGroup" [matAutocomplete]="autoGroup">
+                          <mat-autocomplete #autoGroup="matAutocomplete">
+                            <mat-optgroup *ngFor="let group of countryGroupOptions | async" [label]="group.letter">
+                              <mat-option *ngFor="let name of group.names" [value]="name">
+                                {{name}}
+                              </mat-option>
+                          </mat-optgroup>
+                        </mat-autocomplete>
+                    </mat-form-field>
+                </form>
+
+            </div>
+
+        </mat-expansion-panel>
+        <!--End of Questionaires-->
+    </form>
+    
+</div>
+<div mat-dialog-actions [align]="'end'">
+    <button mat-raised-button color="warn" mat-dialog-close>Close</button>
+    <button style="margin-left: 8px;" mat-raised-button color="primary" (click)="saveInfo()">Save</button>
+</div>

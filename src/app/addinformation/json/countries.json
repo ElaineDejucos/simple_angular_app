@@ -1,0 +1,98 @@
+[
+    {
+        "letter": "A",
+        "names": ["Afghanistan", "Albania", "Algeria", "Andorra", "Angola", "Antigua and Barbuda", "Argentina", "Armenia", "Australia", "Austria", "Azerbaijan"]
+    },
+    {
+        "letter": "B",
+        "names": ["Bahamas", "Bahrain", "Bangladesh", "Barbados", "Belarus", "Belgium", "Belize", "Benin", "Bhutan", "Bolivia", "Bosnia and Herzegovina", "Botswana", "Brazil", "Brunei", "Bulagaria", "Burkina Faso", "Burundi"]
+    },
+    {
+        "letter": "C",
+        "names": ["Côte d'Ivoire", "Cabo Verde", "Cambodia", "Cameroon", "Canada", "Central African Republic", "Chad", "Chile", "China", "Colombia", "Comoros", "Congo (Congo-Brazzaville)", "Costa Rica", "Croatia", "Cuba", "Cyprus", "Czechia (Czech Republic)"]
+    },
+    {
+        "letter": "D",
+        "names": ["Democratic Republic of Congo", "Denmark", "Djibouti", "Dominica", "Dominican Republic"]
+    },
+    {
+        "letter": "E",
+        "names": ["Ecuador", "Egypt", "El Salvador", "Equatorial Guinea", "Eritea", "Estonia", "Eswatini", "Ethiopia"]
+    },
+    {
+        "letter": "F",
+        "names": ["Fiji", "Finland", "France"]
+    },
+    {
+        "letter": "G",
+        "names": ["Gabon", "Gambia", " Georgia", "Germany", "Ghana", "Greece", "Grenada", "Guatemala", "Guinea", "Guinea-Bissau", "Guyana"]
+    },
+    {
+        "letter": "H",
+        "names": ["Haiti", "Holy See", "Honduras", "Hungary", "Hong Kong"]
+    },
+    {
+        "letter": "I",
+        "names": ["Iceland", "India", "Indonesia", "Iran", "Iraq", "Ireland", "Israel", "Italy"]
+    },
+    {
+        "letter": "J",
+        "names": ["Jamaica", "Japan", "Jordan"]
+    },
+    {
+        "letter": "K",
+        "names": ["Kazakhstan", " Kenya", "Kiribati", "Kuwait", "Kyrgyzstan"]
+    },
+    {
+        "letter": "L",
+        "names": ["Laos", "Latvia", "Lebanon", "Lesotho", "Liberia", "Libya", "Liechtenstein", "Lithuania", "Luxembourg"]
+    },
+    {
+        "letter": "M",
+        "names": ["Madagascar", "Malawi", "Malaysia", "Maldives", "Mali", "Malta", "Marshall Islands", "Mauritius", "Mexico", "Micronesia", "Moldova", "Monaco", "Mangolia", "Montenegro", "Morocco", "Mozambique", "Myanmar"]
+    },
+    {
+        "letter": "N",
+        "names": ["Namibia", "Nauru", "Nepal", "Netherlands", "New Zealand", "Nicaragua", "Niger", "Nigeria", "North Korea", "North Macedonia", "Norway"]
+    },
+    {
+        "letter": "O",
+        "names": ["Oman"]
+    },
+    {
+        "letter": "P",
+        "names": ["Pakistan", "Palau", "Palestine State", "Panaman", "Papua New Guinea", "Paraguay", "Peru", "Philippines", "Poland", "Portugal"]
+    },
+    {
+        "letter": "Q",
+        "names": ["Qatar"]
+    },
+    {
+        "letter": "R",
+        "names": ["Romania", "Russia", "Rwanda"]
+    },
+    {
+        "letter": "S",
+        "names": ["Saint Kitts and Nevis", "Saint Lucia", "Saint Vincent and the Grenadines", "Samoa", "San Marino", "Sao Tome and Principe", "Saudi Arabia", "Senegal", "Serbia", "Seychelles", "Sierra Leone", "Singapore", "Slovakia", "Slovenia", "Solomon Islands", "Somalia", "South Africa", "South Korea", "South Sudan", "Spain", "Sri Lanka", "Sudan", "Suriname", "Sweden", "Switzerland", "Syria"]
+    },
+    {
+        "letter": "T",
+        "names": ["Tajikistan", "Tanzania", "Thailand", "Timor-Leste", "Togo", "Tonga", "Trinidad and Tobago", "Tunisia", "Turkey", "Turkmenistan", "Tuvalu"]
+    },
+    {
+        "letter": "U",
+        "names": ["Uganda", "Ukraine", "United Arab Emirates", "United Kingdom", "United States of America", "Uruguay", "Uzbekistan"]
+    },
+    {
+        "letter": "V",
+        "names": ["Vanuatu", "Venezuela", "Vietnam"]
+    },
+    {
+        "letter": "Y",
+        "names": ["Yemen"]
+    },
+    {
+        "letter": "Z",
+        "names": ["Zambia", "Zimbabwe"]
+    }
+]

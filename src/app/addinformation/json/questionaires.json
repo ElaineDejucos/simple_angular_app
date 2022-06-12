@@ -1,0 +1,239 @@
+[
+    {
+        "QuestionNo": "1",
+        "PQuestionDescription": "How often do you travel?",
+        "PQuestion": true,
+        "CQuestionDescription": "",
+        "CQuestion": false,
+        "PQuestionNo": "",
+        "QuestionType": "MC",
+        "QuestionOptions": [
+            {
+                "value": "a",
+                "description": "A. Once in a year"
+            },
+            {
+                "value": "b",
+                "description": "B. Once in 6 months"
+            },
+            {
+                "value": "c",
+                "description": "C. Once in 3 months"
+            },
+            {
+                "value": "d",
+                "description": "D. Every Month"
+            },
+            {
+                "value": "e",
+                "description": "E. Every week"
+            }
+        ]
+    },
+    {
+        "QuestionNo": "2",
+        "PQuestionDescription": "How do you plan your trip?",
+        "PQuestion": true,
+        "CQuestionDescription": "",
+        "CQuestion": false,
+        "PQuestionNo": "",
+        "QuestionType": "MC",
+        "QuestionOptions": [
+            {
+                "value": "a",
+                "description": "A. By Yourself"
+            },
+            {
+                "value": "b",
+                "description": "B. By Company"
+            }
+        ]
+    },
+    {
+        "QuestionNo": "3",
+        "PQuestionDescription": "What is the purpose of your travel?",
+        "PQuestion": true,
+        "CQuestionDescription": "",
+        "CQuestion": false,
+        "PQuestionNo": "",
+        "QuestionType": "MC",
+        "QuestionOptions": [
+            {
+                "value": "a",
+                "description": "A. Leisure"
+            },
+            {
+                "value": "b",
+                "description": "B. Work"
+            }
+        ]
+    },
+    {
+        "QuestionNo": "4",
+        "PQuestionDescription": "What mode of transporation do you opt? Rate them based on the basis of your preferences (most preferred at the top, least preferred at the bottom)",
+        "PQuestion": true,
+        "CQuestionDescription": "",
+        "CQuestion": false,
+        "PQuestionNo": "",
+        "QuestionType": "LB",
+        "QuestionOptions": []
+    },
+    {
+        "QuestionNo": "5",
+        "PQuestionDescription": "Where do you go most often?",
+        "PQuestion": true,
+        "CQuestionDescription": "",
+        "CQuestion": false,
+        "PQuestionNo": "",
+        "QuestionType": "MC",
+        "QuestionOptions": [
+            {
+                "value": "a",
+                "description": "A. Hill Stations"
+            },
+            {
+                "value": "b",
+                "description": "B. Beach"
+            },
+            {
+                "value": "c",
+                "description": "C. Historical Significant Places"
+            },
+            {
+                "value": "d",
+                "description": "D. Commercially Busy Cities"
+            }
+        ]
+    },
+    {
+        "QuestionNo": "6",
+        "PQuestionDescription": "Have you travelled internationally?",
+        "PQuestion": true,
+        "CQuestionDescription": "",
+        "CQuestion": false,
+        "PQuestionNo": "",
+        "QuestionType": "YN",
+        "QuestionOptions": [
+            {
+                "value": "y",
+                "description": "Yes"
+            },
+            {
+                "value": "n",
+                "description": "No"
+            }
+        ]
+    },
+    {
+        "QuestionNo": "6.1",
+        "PQuestionDescription": "",
+        "PQuestion": false,
+        "CQuestionDescription": "Location:",
+        "CQuestion": false,
+        "PQuestionNo": "6",
+        "QuestionType": "AC",
+        "QuestionOptions": []
+    },
+    {
+        "QuestionNo": "7",
+        "PQuestionDescription": "With whom do you travel most often?",
+        "PQuestion": true,
+        "CQuestionDescription": "",
+        "CQuestion": false,
+        "PQuestionNo": "",
+        "QuestionType": "MC",
+        "QuestionOptions": [
+            {
+                "value": "a",
+                "description": "A. Family"
+            },
+            {
+                "value": "b",
+                "description": "B. Friends"
+            },
+            {
+                "value": "c",
+                "description": "C. Colleagues"
+            },
+            {
+                "value": "d",
+                "description": "D. Alone"
+            }
+        ]
+    },
+    {
+        "QuestionNo": "8",
+        "PQuestionDescription": "Where do you like to stay?",
+        "PQuestion": true,
+        "CQuestionDescription": "",
+        "CQuestion": false,
+        "PQuestionNo": "",
+        "QuestionType": "MC",
+        "QuestionOptions": [
+            {
+                "value": "a",
+                "description": "A. Expensive Hotels"
+            },
+            {
+                "value": "b",
+                "description": "B. Budget-Friendly Hotels"
+            },
+            {
+                "value": "c",
+                "description": "C. Resorts"
+            }
+        ]
+    },
+    {
+        "QuestionNo": "9",
+        "PQuestionDescription": "What is generally the length of the trip?",
+        "PQuestion": true,
+        "CQuestionDescription": "",
+        "CQuestion": false,
+        "PQuestionNo": "",
+        "QuestionType": "MC",
+        "QuestionOptions": [
+            {
+                "value": "a",
+                "description": "A. Less than a week"
+            },
+            {
+                "value": "b",
+                "description": "B. 1-3 Weeks"
+            },
+            {
+                "value": "c",
+                "description": "C. A Month"
+            }
+        ]
+    },
+    {
+        "QuestionNo": "10",
+        "PQuestionDescription": "Do you use travel agent?",
+        "PQuestion": true,
+        "CQuestionDescription": "",
+        "CQuestion": false,
+        "PQuestionNo": "",
+        "QuestionType": "YN",
+        "QuestionOptions": [
+            {
+                "value": "y",
+                "description": "Yes"
+            },
+            {
+                "value": "n",
+                "description": "No"
+            }
+        ]
+    },
+    {
+        "QuestionNo": "10.1",
+        "PQuestionDescription": "",
+        "PQuestion": false,
+        "CQuestionDescription": "What travel agent",
+        "CQuestion": true,
+        "PQuestionNo": "10",
+        "QuestionType": "FT",
+        "QuestionOptions": []
+    }
+]

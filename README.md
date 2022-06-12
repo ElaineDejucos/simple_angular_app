@@ -25,3 +25,16 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+
+Pre-requisite
+1. Make sure that Node and Angular were install.
+    To check, open cmd type the following
+        a. For Node: > node --version
+        b. For Angular: > ng version OR ng -version
+
+    If the version is not available install first the node and angular.
+    To install, type > npm install -g @angular/cli
+
+2. Install JSON-server
