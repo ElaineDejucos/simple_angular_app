@@ -6,46 +6,85 @@
       "citizenship": "Filipino",
       "gender": "Female",
       "dateOfBirth": "1993-08-11T16:00:00.000Z",
+      "transportation": [
+        "Car",
+        "Aiplane"
+      ],
+      "country": {
+        "countryGroup": "Japan"
+      },
       "questionList": [
         {
-          "questionNum": "1",
-          "value": "a"
+          "questionNum": 1,
+          "questionDesc": "How often do you travel?",
+          "value": "a",
+          "description": "A. Once in a year"
         },
         {
-          "questionNum": "2",
-          "value": "b"
+          "questionNum": 2,
+          "questionDesc": "How do you plan your trip?",
+          "value": "a",
+          "description": "A. By Yourself"
         },
         {
-          "questionNum": "3",
-          "value": "b"
+          "questionNum": 3,
+          "questionDesc": "What is the purpose of your travel?",
+          "value": "a",
+          "description": "A. Leisure"
         },
         {
-          "questionNum": "5",
-          "value": "d"
+          "questionNum": 4,
+          "questionDesc": "What mode of transporation do you opt?",
+          "value": "",
+          "description": "Car, Aiplane"
         },
         {
-          "questionNum": "6",
-          "value": "n"
+          "questionNum": 5,
+          "questionDesc": "Where do you go most often?",
+          "value": "b",
+          "description": "B. Beach"
         },
         {
-          "questionNum": "7",
-          "value": "c"
+          "questionNum": 6,
+          "questionDesc": "Have you travelled internationally?",
+          "value": "y",
+          "description": "Yes"
         },
         {
-          "questionNum": "8",
-          "value": "a"
+          "questionNum": 6.1,
+          "questionDesc": "Location:",
+          "value": "",
+          "description": "Japan"
         },
         {
-          "questionNum": "9",
-          "value": "c"
+          "questionNum": 7,
+          "questionDesc": "With whom do you travel most often?",
+          "value": "b",
+          "description": "B. Friends"
         },
         {
-          "questionNum": "10",
-          "value": "n"
+          "questionNum": 8,
+          "questionDesc": "Where do you like to stay?",
+          "value": "b",
+          "description": "B. Budget-Friendly Hotels"
         },
         {
-          "questionNum": "11",
-          "value": "c"
+          "questionNum": 9,
+          "questionDesc": "What is generally the length of the trip?",
+          "value": "b",
+          "description": "B. 1-3 Weeks"
+        },
+        {
+          "questionNum": 10,
+          "questionDesc": "Do you use travel agent?",
+          "value": "y",
+          "description": "Yes"
+        },
+        {
+          "questionNum": 10.1,
+          "questionDesc": "What travel agent",
+          "value": "",
+          "description": "Online Travel Agent"
         }
       ],
       "fullName": "Elaine Dejucos",
@@ -57,101 +96,258 @@
       "citizenship": "Filipino",
       "gender": "Female",
       "dateOfBirth": "1989-10-31T16:00:00.000Z",
+      "transportation": [
+        "Airplane"
+      ],
+      "country": {
+        "countryGroup": ""
+      },
       "questionList": [
         {
-          "questionNum": "1",
-          "value": "a"
+          "questionNum": 1,
+          "questionDesc": "How often do you travel?",
+          "value": "b",
+          "description": "B. Once in 6 months"
         },
         {
-          "questionNum": "2",
-          "value": "a"
+          "questionNum": 2,
+          "questionDesc": "How do you plan your trip?",
+          "value": "a",
+          "description": "A. By Yourself"
         },
         {
-          "questionNum": "3",
-          "value": "a"
+          "questionNum": 3,
+          "questionDesc": "What is the purpose of your travel?",
+          "value": "a",
+          "description": "B. Work"
         },
         {
-          "questionNum": "5",
-          "value": "d"
+          "questionNum": 4,
+          "questionDesc": "What mode of transporation do you opt?",
+          "value": "",
+          "description": "Airplane"
         },
         {
-          "questionNum": "6",
-          "value": "y"
+          "questionNum": 5,
+          "questionDesc": "Where do you go most often?",
+          "value": "c",
+          "description": "C. Historical Significant Places"
         },
         {
-          "questionNum": "7",
-          "value": "b"
+          "questionNum": 6,
+          "questionDesc": "Have you travelled internationally?",
+          "value": "n",
+          "description": "No"
         },
         {
-          "questionNum": "8",
-          "value": "b"
+          "questionNum": 7,
+          "questionDesc": "With whom do you travel most often?",
+          "value": "b",
+          "description": "B. Friends"
         },
         {
-          "questionNum": "10",
-          "value": "n"
+          "questionNum": 8,
+          "questionDesc": "Where do you like to stay?",
+          "value": "b",
+          "description": "B. Budget-Friendly Hotels"
         },
         {
-          "questionNum": "9",
-          "value": "b"
+          "questionNum": 9,
+          "questionDesc": "What is generally the length of the trip?",
+          "value": "b",
+          "description": "B. 1-3 Weeks"
         },
         {
-          "questionNum": "11",
-          "value": "a"
+          "questionNum": 10,
+          "questionDesc": "Do you use travel agent?",
+          "value": "n",
+          "description": "No"
         }
       ],
       "fullName": "Maila Tacdoro",
       "id": 2
     },
     {
+      "firstName": "Larry",
+      "lastName": "Bird",
+      "citizenship": "US Citizen",
+      "gender": "Male",
+      "dateOfBirth": "1956-12-06T16:00:00.000Z",
+      "country": {
+        "countryGroup": ""
+      },
+      "questionList": [
+        {
+          "questionNum": 10,
+          "questionDesc": "Do you use travel agent?",
+          "value": "y",
+          "description": "Yes"
+        },
+        {
+          "questionNum": 10.1,
+          "questionDesc": "What travel agent",
+          "value": "",
+          "description": "Tour Operators"
+        }
+      ],
+      "fullName": "Larry Bird",
+      "id": 3
+    },
+    {
       "firstName": "Tres",
       "lastName": "Bernardo",
       "citizenship": "Filipino",
       "gender": "Male",
-      "dateOfBirth": "2014-07-16T16:00:00.000Z",
+      "dateOfBirth": "2004-07-16T16:00:00.000Z",
+      "transportation": [
+        "Car",
+        "Bus",
+        "Airplane"
+      ],
+      "country": {
+        "countryGroup": ""
+      },
       "questionList": [
         {
-          "questionNum": "1",
-          "value": "a"
+          "questionNum": 1,
+          "questionDesc": "How often do you travel?",
+          "value": "a",
+          "description": "A. Once in a year"
         },
         {
-          "questionNum": "2",
-          "value": "a"
+          "questionNum": 2,
+          "questionDesc": "How do you plan your trip?",
+          "value": "a",
+          "description": "A. By Yourself"
         },
         {
-          "questionNum": "3",
-          "value": "a"
+          "questionNum": 3,
+          "questionDesc": "What is the purpose of your travel?",
+          "value": "a",
+          "description": "A. Leisure"
         },
         {
-          "questionNum": "5",
-          "value": "b"
+          "questionNum": 4,
+          "questionDesc": "What mode of transporation do you opt?",
+          "value": "",
+          "description": "Car, Bus, Airplane"
         },
         {
-          "questionNum": "6",
-          "value": "y"
+          "questionNum": 5,
+          "questionDesc": "Where do you go most often?",
+          "value": "b",
+          "description": "B. Beach"
         },
         {
-          "questionNum": "7",
-          "value": "a"
+          "questionNum": 6,
+          "questionDesc": "Have you travelled internationally?",
+          "value": "n",
+          "description": "No"
         },
         {
-          "questionNum": "8",
-          "value": "b"
+          "questionNum": 7,
+          "questionDesc": "With whom do you travel most often?",
+          "value": "a",
+          "description": "A. Family"
         },
         {
-          "questionNum": "9",
-          "value": "b"
+          "questionNum": 8,
+          "questionDesc": "Where do you like to stay?",
+          "value": "b",
+          "description": "B. Budget-Friendly Hotels"
         },
         {
-          "questionNum": "10",
-          "value": "n"
+          "questionNum": 9,
+          "questionDesc": "What is generally the length of the trip?",
+          "value": "b",
+          "description": "B. 1-3 Weeks"
         },
         {
-          "questionNum": "11",
-          "value": "a"
+          "questionNum": 10,
+          "questionDesc": "Do you use travel agent?",
+          "value": "n",
+          "description": "No"
         }
       ],
       "fullName": "Tres Bernardo",
-      "id": 3
+      "id": 4
+    },
+    {
+      "firstName": "Kevin",
+      "lastName": "Garnett",
+      "citizenship": "US Citizen",
+      "gender": "Male",
+      "dateOfBirth": "1976-05-18T16:00:00.000Z",
+      "transportation": [
+        "Airplane"
+      ],
+      "country": {
+        "countryGroup": ""
+      },
+      "questionList": [
+        {
+          "questionNum": 1,
+          "questionDesc": "How often do you travel?",
+          "value": "d",
+          "description": "D. Every Month"
+        },
+        {
+          "questionNum": 2,
+          "questionDesc": "How do you plan your trip?",
+          "value": "b",
+          "description": "B. By Company"
+        },
+        {
+          "questionNum": 3,
+          "questionDesc": "What is the purpose of your travel?",
+          "value": "b",
+          "description": "B. Work"
+        },
+        {
+          "questionNum": 4,
+          "questionDesc": "What mode of transporation do you opt?",
+          "value": "",
+          "description": "Airplane"
+        },
+        {
+          "questionNum": 5,
+          "questionDesc": "Where do you go most often?",
+          "value": "d",
+          "description": "D. Commercially Busy Cities"
+        },
+        {
+          "questionNum": 6,
+          "questionDesc": "Have you travelled internationally?",
+          "value": "n",
+          "description": "No"
+        },
+        {
+          "questionNum": 7,
+          "questionDesc": "With whom do you travel most often?",
+          "value": "c",
+          "description": "C. Colleagues"
+        },
+        {
+          "questionNum": 8,
+          "questionDesc": "Where do you like to stay?",
+          "value": "a",
+          "description": "A. Expensive Hotels"
+        },
+        {
+          "questionNum": 9,
+          "questionDesc": "What is generally the length of the trip?",
+          "value": "b",
+          "description": "B. 1-3 Weeks"
+        },
+        {
+          "questionNum": 10,
+          "questionDesc": "Do you use travel agent?",
+          "value": "n",
+          "description": "No"
+        }
+      ],
+      "fullName": "Kevin Garnett",
+      "id": 5
     },
     {
       "firstName": "EA",
@@ -159,156 +355,180 @@
       "citizenship": "Filipino",
       "gender": "Female",
       "dateOfBirth": "1989-10-25T16:00:00.000Z",
+      "transportation": [
+        "Airplane"
+      ],
+      "country": {
+        "countryGroup": "Hong Kong"
+      },
       "questionList": [
         {
-          "questionNum": "1",
-          "value": "c"
+          "questionNum": 1,
+          "questionDesc": "How often do you travel?",
+          "value": "a",
+          "description": "A. Once in a year"
         },
         {
-          "questionNum": "2",
-          "value": "b"
+          "questionNum": 2,
+          "questionDesc": "How do you plan your trip?",
+          "value": "a",
+          "description": "A. By Yourself"
         },
         {
-          "questionNum": "3",
-          "value": "b"
+          "questionNum": 3,
+          "questionDesc": "What is the purpose of your travel?",
+          "value": "a",
+          "description": "A. Leisure"
         },
         {
-          "questionNum": "5",
-          "value": "d"
+          "questionNum": 4,
+          "questionDesc": "What mode of transporation do you opt?",
+          "value": "",
+          "description": "Airplane"
         },
         {
-          "questionNum": "6",
-          "value": "y"
+          "questionNum": 5,
+          "questionDesc": "Where do you go most often?",
+          "value": "d",
+          "description": "B. Beach"
         },
         {
-          "questionNum": "7",
-          "value": "c"
+          "questionNum": 6,
+          "questionDesc": "Have you travelled internationally?",
+          "value": "y",
+          "description": "Yes"
         },
         {
-          "questionNum": "8",
-          "value": "a"
+          "questionNum": 6.1,
+          "questionDesc": "Location:",
+          "value": "",
+          "description": "Hong Kong"
         },
         {
-          "questionNum": "9",
-          "value": "c"
+          "questionNum": 7,
+          "questionDesc": "With whom do you travel most often?",
+          "value": "a",
+          "description": "A. Family"
         },
         {
-          "questionNum": "10",
-          "value": "n"
+          "questionNum": 8,
+          "questionDesc": "Where do you like to stay?",
+          "value": "b",
+          "description": "B. Budget-Friendly Hotels"
+        },
+        {
+          "questionNum": 9,
+          "questionDesc": "What is generally the length of the trip?",
+          "value": "b",
+          "description": "B. 1-3 Weeks"
+        },
+        {
+          "questionNum": 10,
+          "questionDesc": "Do you use travel agent?",
+          "value": "n",
+          "description": "No"
         }
       ],
       "fullName": "EA Bernardo",
-      "country": {
-        "countryGroup": "Australia"
-      },
-      "id": 4
+      "id": 6
     },
     {
-      "firstName": "Ram",
-      "lastName": "Valdez",
+      "firstName": "Quen",
+      "lastName": "Gil",
       "citizenship": "Filipino",
       "gender": "Male",
-      "dateOfBirth": "1972-01-27T16:00:00.000Z",
+      "dateOfBirth": "1992-03-19T16:00:00.000Z",
+      "country": {
+        "countryGroup": "United States of America"
+      },
       "questionList": [
         {
-          "questionNum": "1",
-          "value": "c"
+          "questionNum": 3,
+          "questionDesc": "What is the purpose of your travel?",
+          "value": "b",
+          "description": "B. Work"
         },
         {
-          "questionNum": "2",
-          "value": "b"
+          "questionNum": 6,
+          "questionDesc": "Have you travelled internationally?",
+          "value": "y",
+          "description": "Yes"
         },
         {
-          "questionNum": "3",
-          "value": "b"
-        },
-        {
-          "questionNum": "4",
-          "value": ""
-        },
-        {
-          "questionNum": "5",
-          "value": "d"
-        },
-        {
-          "questionNum": "6",
-          "value": "n"
-        },
-        {
-          "questionNum": "7",
-          "value": "c"
-        },
-        {
-          "questionNum": "8",
-          "value": "a"
-        },
-        {
-          "questionNum": "9",
-          "value": "b"
-        },
-        {
-          "questionNum": "10",
-          "value": "n"
+          "questionNum": 6.1,
+          "questionDesc": "Location:",
+          "value": "",
+          "description": "United States of America"
         }
       ],
-      "fullName": "Ram Valdez",
-      "country": {
-        "countryGroup": ""
-      },
-      "id": 5
+      "fullName": "Quen Gil",
+      "id": 7
     },
     {
-      "firstName": "Serge",
-      "lastName": "Ordonez",
-      "citizenship": "Filipino",
+      "firstName": "Steph",
+      "lastName": "Curry",
+      "citizenship": "US Citizen",
       "gender": "Male",
-      "dateOfBirth": "1995-03-02T16:00:00.000Z",
-      "questionList": [
-        {
-          "questionNum": "1",
-          "value": "d"
-        },
-        {
-          "questionNum": "2",
-          "value": "b"
-        },
-        {
-          "questionNum": "3",
-          "value": "b"
-        },
-        {
-          "questionNum": "5",
-          "value": "c"
-        },
-        {
-          "questionNum": "6",
-          "value": "n"
-        },
-        {
-          "questionNum": "7",
-          "value": "d"
-        },
-        {
-          "questionNum": "8",
-          "value": "a"
-        },
-        {
-          "questionNum": "9",
-          "value": "a"
-        },
-        {
-          "questionNum": "10",
-          "value": "n"
-        }
-      ],
-      "fullName": "Serge Ordonez",
-      "country": {
-        "countryGroup": ""
-      },
+      "dateOfBirth": "1988-03-13T16:00:00.000Z",
       "transportation": [
+        "Airplane",
         "Car"
       ],
-      "id": 6
+      "country": {
+        "countryGroup": ""
+      },
+      "questionList": [
+        {
+          "questionNum": 1,
+          "questionDesc": "How often do you travel?",
+          "value": "e",
+          "description": "E. Every week"
+        },
+        {
+          "questionNum": 2,
+          "questionDesc": "How do you plan your trip?",
+          "value": "b",
+          "description": "B. By Company"
+        },
+        {
+          "questionNum": 3,
+          "questionDesc": "What is the purpose of your travel?",
+          "value": "b",
+          "description": "B. Work"
+        },
+        {
+          "questionNum": 4,
+          "questionDesc": "What mode of transporation do you opt?",
+          "value": "",
+          "description": "Airplane, Car"
+        },
+        {
+          "questionNum": 6,
+          "questionDesc": "Have you travelled internationally?",
+          "value": "n",
+          "description": "No"
+        },
+        {
+          "questionNum": 7,
+          "questionDesc": "With whom do you travel most often?",
+          "value": "c",
+          "description": "C. Colleagues"
+        },
+        {
+          "questionNum": 9,
+          "questionDesc": "What is generally the length of the trip?",
+          "value": "a",
+          "description": "A. Less than a week"
+        },
+        {
+          "questionNum": 10,
+          "questionDesc": "Do you use travel agent?",
+          "value": "n",
+          "description": "No"
+        }
+      ],
+      "fullName": "Steph Curry",
+      "id": 8
     }
   ],
   "comments": [

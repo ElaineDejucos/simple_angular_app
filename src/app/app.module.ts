@@ -1,4 +1,4 @@
-import { NgModule, ViewChild } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
@@ -25,11 +25,20 @@ import { HttpClientModule } from '@angular/common/http';
 import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
+import { DetailsComponent } from './details/details.component';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { MatTooltipModule } from '@angular/material/tooltip';
+import { MatTabsModule } from '@angular/material/tabs';
+import { ChartComponent, } from './chart/chart.component';
+import { ChartModule } from '@syncfusion/ej2-angular-charts';
+import { CategoryService, ColumnSeriesService } from '@syncfusion/ej2-angular-charts';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AddInformationComponent
+    AddInformationComponent,
+    DetailsComponent,
+    ChartComponent,
   ],
   imports: [
     BrowserModule,
@@ -53,12 +62,17 @@ import { MatSortModule } from '@angular/material/sort';
     HttpClientModule,
     MatTableModule,
     MatPaginatorModule,
-    MatSortModule
+    MatSortModule,
+    MatSnackBarModule,
+    MatTooltipModule,
+    MatTabsModule,
+    ChartModule
   ],
   providers: [
-    {
-      provide: MAT_FORM_FIELD_DEFAULT_OPTIONS, useValue: {appearance: 'fill'}
-    }
+    CategoryService,
+    ColumnSeriesService,
+    { provide: MAT_FORM_FIELD_DEFAULT_OPTIONS, useValue: {appearance: 'fill'} },
+    { provide: CUSTOM_ELEMENTS_SCHEMA, useValue: {appearance: 'fill'} }
   ],
   bootstrap: [AppComponent]
 })

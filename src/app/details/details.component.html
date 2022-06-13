@@ -1,0 +1,12 @@
+<h3>View Details</h3>
+<div mat-dialog-content>
+    <mat-list *ngFor="let item of data">
+        <mat-list-item >{{item.questionNum}}. {{item.questionDesc}}</mat-list-item>
+        <mat-list-item style="margin-left: 20px; margin-top: -20px;">Answer: {{item.description}}</mat-list-item>
+        <mat-divider></mat-divider>
+    </mat-list>
+</div>
+
+<div mat-dialog-actions [align]="'end'">
+    <button mat-raised-button color="warn" mat-dialog-close>Close</button>
+</div>

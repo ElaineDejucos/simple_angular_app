@@ -5,6 +5,9 @@ import { ApiService } from './services/api.service';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
+import { DetailsComponent } from './details/details.component';
+import { MatSnackBar } from '@angular/material/snack-bar';
+import { ChartModule } from '@syncfusion/ej2-angular-charts';
 
 @Component({
   selector: 'app-root',
@@ -19,14 +22,19 @@ export class AppComponent implements OnInit {
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) sort!: MatSort;
 
-  constructor(private dialog: MatDialog, private api: ApiService){}
+  constructor(
+    private addInformation: MatDialog, 
+    private api: ApiService,
+    private details: MatDialog,
+    private _snackBar: MatSnackBar
+    ){}
 
   ngOnInit(): void {
     this.getAllInformation();
   }
   
   openDialog() {
-    this.dialog.open(AddInformationComponent, {
+    this.addInformation.open(AddInformationComponent, {
       width: "30%"
     }).afterClosed().subscribe(val => {
       if (val === 'save'){
@@ -35,17 +43,25 @@ export class AppComponent implements OnInit {
     })
   }
 
+  openDetails(row: any){
+    this.details.open(DetailsComponent, {
+      data: row.questionList,
+      width: "30%"
+    })
+  }
+
   getAllInformation(){
     this.api.getDetails()
     .subscribe({
       next:(res)=>{
-        console.log(this.dataSource)
         this.dataSource = new MatTableDataSource(res);
         this.dataSource.paginator = this.paginator;
         this.dataSource.sort = this.sort;
       },
       error:()=>{
-        alert("Error fetchking the records.")
+        this._snackBar.open("Error fetching the records.", 'Close', {
+          duration: 1500,
+        });
       }
     })
   }

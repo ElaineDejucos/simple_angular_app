@@ -54,38 +54,38 @@
                     {{question.QuestionNo}}. {{question.PQuestionDescription}}
                 </label>
                 <mat-radio-group class="example-radio-group">
-                    <mat-radio-button class="example-radio-button" *ngFor="let option of question.QuestionOptions" [value]="option.value" (click)="selectedOpt(option.value, question.QuestionNo)">{{option.description}}</mat-radio-button>
+                    <mat-radio-button class="example-radio-button" *ngFor="let option of question.QuestionOptions" [value]="option.value" (click)="selectedOpt(option.value, question.QuestionNo, option.description, question.PQuestionDescription)">{{option.description}}</mat-radio-button>
                 </mat-radio-group>
 
                 <!--Text Area-->
                 <mat-form-field class="example-full-width" appearance="outline" *ngIf="question.QuestionType == 'LB'">
                     <mat-label>Transportation</mat-label>
-                    <textarea matInput #transportation placeholder="Ex. Airplane" (keyup.enter)="onEnter(transportation.value)"></textarea>
+                    <textarea matInput #transportation placeholder="Ex. Airplane" (keyup.enter)="onEnter(transportation.value)" (blur)="onEnter(transportation.value)" (click)="setTransportation(question.PQuestionDescription, 4)"></textarea>
                 </mat-form-field>
                 
 
                 <!--For child question of #10-->
-                <label *ngIf="question.QuestionType == 'FT' && showChild('10')">
+                <label *ngIf="question.QuestionType == 'FT' && showChild(10)">
                     {{question.QuestionNo}}. {{question.CQuestionDescription}}
                 </label>
                 <!--Free Text-->
-                <mat-form-field appearance="outline" *ngIf="(question.QuestionType == 'FT' && showChild('10'))">
-                    <input matInput placeholder="Travel Agent">
+                <mat-form-field appearance="outline" *ngIf="(question.QuestionType == 'FT' && showChild(10))">
+                    <input #travelAgent (blur)="onType(travelAgent.value)" (click)="setTravelAgent(question.CQuestionDescription, 10.1)" matInput placeholder="Travel Agent">
                 </mat-form-field>
 
 
                 <!-- For child question of #6-->
-                <label *ngIf="question.QuestionType == 'AC' && showChild('6')">
+                <label *ngIf="question.QuestionType == 'AC' && showChild(6)">
                     {{question.QuestionNo}}. {{question.CQuestionDescription}}
                 </label>
                 <!--Autocomplete-->
-                <form [formGroup]="countryForm" *ngIf="question.QuestionType == 'AC' && showChild('6')">
+                <form [formGroup]="countryForm" *ngIf="question.QuestionType == 'AC' && showChild(6)">
                     <mat-form-field appearance="outline">
                         <mat-label>Country</mat-label>
                         <input type="text" matInput formControlName="countryGroup" [matAutocomplete]="autoGroup">
                           <mat-autocomplete #autoGroup="matAutocomplete">
                             <mat-optgroup *ngFor="let group of countryGroupOptions | async" [label]="group.letter">
-                              <mat-option *ngFor="let name of group.names" [value]="name">
+                              <mat-option *ngFor="let name of group.names" [value]="name" (click)="setCountry(question.CQuestionDescription, 6.1)">
                                 {{name}}
                               </mat-option>
                           </mat-optgroup>

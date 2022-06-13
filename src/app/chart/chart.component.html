@@ -1,0 +1,10 @@
+<button mat-icon-button class="example-icon" (click)="reloadCurrentPage()">
+    <mat-icon>refresh</mat-icon>
+  </button>
+  
+<ejs-chart id="chart-container" [primaryXAxis]="primaryXAxis" [title]="title">
+    <e-series-collection>
+        <e-series [dataSource]="chartData" type="Column" xName="xAxis" yName="yAxis" name="International Travel">
+        </e-series>
+    </e-series-collection>
+</ejs-chart>

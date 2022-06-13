@@ -1,6 +1,6 @@
 [
     {
-        "QuestionNo": "1",
+        "QuestionNo": 1,
         "PQuestionDescription": "How often do you travel?",
         "PQuestion": true,
         "CQuestionDescription": "",
@@ -31,7 +31,7 @@
         ]
     },
     {
-        "QuestionNo": "2",
+        "QuestionNo": 2,
         "PQuestionDescription": "How do you plan your trip?",
         "PQuestion": true,
         "CQuestionDescription": "",
@@ -50,7 +50,7 @@
         ]
     },
     {
-        "QuestionNo": "3",
+        "QuestionNo": 3,
         "PQuestionDescription": "What is the purpose of your travel?",
         "PQuestion": true,
         "CQuestionDescription": "",
@@ -69,8 +69,8 @@
         ]
     },
     {
-        "QuestionNo": "4",
-        "PQuestionDescription": "What mode of transporation do you opt? Rate them based on the basis of your preferences (most preferred at the top, least preferred at the bottom)",
+        "QuestionNo": 4,
+        "PQuestionDescription": "What mode of transporation do you opt?",
         "PQuestion": true,
         "CQuestionDescription": "",
         "CQuestion": false,
@@ -79,7 +79,7 @@
         "QuestionOptions": []
     },
     {
-        "QuestionNo": "5",
+        "QuestionNo": 5,
         "PQuestionDescription": "Where do you go most often?",
         "PQuestion": true,
         "CQuestionDescription": "",
@@ -106,7 +106,7 @@
         ]
     },
     {
-        "QuestionNo": "6",
+        "QuestionNo": 6,
         "PQuestionDescription": "Have you travelled internationally?",
         "PQuestion": true,
         "CQuestionDescription": "",
@@ -125,7 +125,7 @@
         ]
     },
     {
-        "QuestionNo": "6.1",
+        "QuestionNo": 6.1,
         "PQuestionDescription": "",
         "PQuestion": false,
         "CQuestionDescription": "Location:",
@@ -135,7 +135,7 @@
         "QuestionOptions": []
     },
     {
-        "QuestionNo": "7",
+        "QuestionNo": 7,
         "PQuestionDescription": "With whom do you travel most often?",
         "PQuestion": true,
         "CQuestionDescription": "",
@@ -162,7 +162,7 @@
         ]
     },
     {
-        "QuestionNo": "8",
+        "QuestionNo": 8,
         "PQuestionDescription": "Where do you like to stay?",
         "PQuestion": true,
         "CQuestionDescription": "",
@@ -185,7 +185,7 @@
         ]
     },
     {
-        "QuestionNo": "9",
+        "QuestionNo": 9,
         "PQuestionDescription": "What is generally the length of the trip?",
         "PQuestion": true,
         "CQuestionDescription": "",
@@ -208,7 +208,7 @@
         ]
     },
     {
-        "QuestionNo": "10",
+        "QuestionNo": 10,
         "PQuestionDescription": "Do you use travel agent?",
         "PQuestion": true,
         "CQuestionDescription": "",
@@ -227,7 +227,7 @@
         ]
     },
     {
-        "QuestionNo": "10.1",
+        "QuestionNo": 10.1,
         "PQuestionDescription": "",
         "PQuestion": false,
         "CQuestionDescription": "What travel agent",
